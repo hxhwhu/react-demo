@@ -40,3 +40,12 @@ yarn add node-sass --dev
 ```bash
 yarn add antd
 ```
+
+### prettier
+
+```bash
+# 安装
+yarn add eslint-plugin-prettier prettier eslint-config-prettier --dev
+```
+
+根目录下增加并配置 .prettierrc.json 和 .prettierignore
