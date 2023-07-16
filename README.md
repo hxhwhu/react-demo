@@ -34,3 +34,9 @@ yarn add node-sass --dev
 ```js
 '@': path.join(__dirname, '..', 'src')
 ```
+
+### 引入 Ant Design
+
+```bash
+yarn add antd
+```
