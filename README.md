@@ -18,3 +18,19 @@ npm install --global yarn
 cd react-demo
 yarn start
 ```
+
+### 配置 Webpack
+
+```bash
+# 暴露配置文件
+yarn eject
+
+# 支持 Sass/Scss
+yarn add node-sass --dev
+```
+
+设置路径别名：修改 config/webpack.config.js
+
+```js
+'@': path.join(__dirname, '..', 'src')
+```
